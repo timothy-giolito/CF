@@ -24,10 +24,9 @@ Calcola il Codice Fiscale (CF) italiano
 
 git clone https://github.com/timothy-giolito/CF.git
 
-# Da terminale
+# Da terminale, entrare nella directory e usare il comando
 
-Entrare nella directory
-Usare il comando python app.py
+python app.py
 
 # Una volta eseguito il comando si aprirà in automatico una pagina web con l'applicazione
 
