@@ -1,4 +1,4 @@
-# Semplice applicazione per il calcolo del Codice Fiscale (CF) italiano
+# Applicazione per il calcolo del Codice Fiscale (CF)
 
 # 🏗️​ Tecnologie utilizzate
 
