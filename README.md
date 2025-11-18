@@ -4,7 +4,7 @@
 
 ![HTML 5](https://img.shields.io/badge/HTML-5-orange)
 ![CSS 3](https://img.shields.io/badge/CSS-3-blue)
-![Python](https://img.shields.io/badge/Python-yellow)
+![Python](https://img.shields.io/badge/Python-3-yellow)
 
 # Funzionalità principali
 L'applicazione tramite l'inserimento dei dati personali come:
