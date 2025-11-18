@@ -34,7 +34,7 @@ python app.py
 
 # Una volta eseguito il comando si aprirà una pagina web con l'applicazione, che sfrutta un server locale creato da app.py 
 
-# Per chiudere il server locale (situato alla pagina http://127.0.0.1:8000), sul terminale:
+# Per chiudere il server locale (situato all'indirizzo http://127.0.0.1:8000), sul terminale:
 
 ctrl + C
 
