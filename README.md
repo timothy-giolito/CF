@@ -31,15 +31,18 @@ python app.py
 # Una volta eseguito il comando si aprirà in automatico una pagina web con l'applicazione
 
 ```
-# 👁️​ NOTA
+# 👁️​ Nota
 
-I file "ee.csv" e "comuni.csv" contengono rispettivamente: 
-### stati esteri
-### comuni italiani con rispettivo codice (usato per il calcolo del CF)
+I file:
+
+### "ee.csv"
+### "comuni.csv" 
+
+contengono rispettivamente: 
+
+* stati esteri
+* comuni italiani con rispettivo codice (usato per il calcolo del CF)
 
 # 🔍​ Approfondimento
 
 https://www.agenziaentrate.gov.it/portale/codice-fiscale-e-tessera-sanitaria/che-cos-
-
-
-
