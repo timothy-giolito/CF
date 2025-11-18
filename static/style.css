@@ -1,0 +1,138 @@
+/* Reset e Base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #e8f5e9; /* Verde chiarissimo */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #1b5e20; /* Verde scuro */
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+/* Card Form */
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-top: 5px solid #4caf50; /* Verde principale */
+}
+
+/* Input Groups */
+.form-group {
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.form-group-row {
+    display: flex;
+    gap: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #2e7d32; /* Verde foresta */
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #c8e6c9;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #4caf50;
+    background-color: #f1f8e9;
+}
+
+/* Bottone */
+.btn-submit {
+    width: 100%;
+    padding: 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn-submit:hover {
+    background-color: #388e3c;
+    transform: translateY(-2px);
+}
+
+/* Risultati */
+.result-box {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in;
+}
+
+.result-box.success {
+    background-color: #fff;
+    border: 2px solid #4caf50;
+    color: #1b5e20;
+}
+
+.result-box.error {
+    background-color: #ffebee;
+    border: 2px solid #e57373;
+    color: #c62828;
+}
+
+.codice {
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    font-family: 'Courier New', monospace;
+    color: #2e7d32;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .form-group-row {
+        flex-direction: column;
+        gap: 0;
+    }
+}
