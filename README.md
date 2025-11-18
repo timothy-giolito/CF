@@ -26,10 +26,10 @@ git clone https://github.com/timothy-giolito/CF.git
 
 # Da terminale
 
-* Entrare nella directory
-* Usare il comando python app.py
+Entrare nella directory
+Usare il comando python app.py
 
-Una volta eseguito il comando si aprirà in automatico una pagina web con l'applicazione
+# Una volta eseguito il comando si aprirà in automatico una pagina web con l'applicazione
 
 ```
 
