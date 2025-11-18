@@ -31,6 +31,11 @@ python app.py
 # Una volta eseguito il comando si aprirà in automatico una pagina web con l'applicazione
 
 ```
+# 👁️​ NOTA
+
+I file "ee.csv" e "comuni.csv" contengono rispettivamente: 
+### stati esteri
+### comuni italiani con rispettivo codice (usato per il calcolo del CF)
 
 # 🔍​ Approfondimento
 
